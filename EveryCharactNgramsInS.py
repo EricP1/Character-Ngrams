@@ -14,7 +14,7 @@ def EveryCharNgrams(s):
      return SubStringList
 
 
-text = "Enter your sentence or paragrph here"
+text = "Enter your sentence or paragraph here"
 
 # Convert non-alphanumeric characters to spaces
 text = re.sub(r'[^\w+( +\w+)*$]', ' ', text)
@@ -24,5 +24,5 @@ print ("My text without non-alphanumeric characters with spaces:", text)
 
 MyNgrams = EveryCharNgrams(text)
 
-print ("Number of ngrams extracted and my ngrams extracted from my text:", len(MyNgrams), MyNgrams)
+print ("Number of ngrams extracted and ngrams extracted from my text:", len(MyNgrams), MyNgrams)
 
