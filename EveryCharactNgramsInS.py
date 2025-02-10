@@ -16,7 +16,7 @@ def EveryCharNgrams(s):
 
 text = "Enter your sentence or paragrph here"
 
-# Convert non-alphanumeric charcters to spaces
+# Convert non-alphanumeric characters to spaces
 text = re.sub(r'[^\w+( +\w+)*$]', ' ', text)
 print ("My text without non-alphanumeric characters with spaces:", text)
 
